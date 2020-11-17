@@ -6,28 +6,39 @@
 	<style>
 		/*Global Style*/
 		html, body {
-			margin: 0;
-			padding: 0;
 			background-color: #202020
 		}
 
 		/*Hero Style*/
 		.full-hero {
-					
+			display: block; 
+			margin: 0 auto;
+			text-align: center;
+		}
+		.title-box {
+			background-color: rgba(79,29,206, 0.3);
+			margin: 10px 40vw;
+			color: #AAA;
+			display: inline-block;
+			text-align: center;
+			padding: 10px 10px; 
+			
 		}
 
 		/*Navigation*/
 		.nav-menu{
 			text-align: center;
+			margin: auto;
 		}
 		.nav-menu a {
 			color: #4F1DCE;
-			margin-right: 4%;
+			margin-right: 4vw;
+			font-size: 1rem;
 
 		}
 
 		.bio-box {
-			padding: 1em;
+			text-align: center;
 		}
 		h3 {
 			color: #AAA; 
@@ -35,18 +46,22 @@
 		p {
 			color: #AAA;
 		}
+
 	</style>
 
 </head>
 <body>
 
 	<div class = "full-hero" >
-		<img src="Hithesh Shaji.jpg" alt="Picture of Hithesh" style="display: block; margin: 0 auto;">
-		
-		<h1 style="text-align: center;">
-			<code>HHH.works</code>
-		</h1>
-	</div>
+		<img src="Hithesh Shaji.jpg" alt="Picture of Hithesh">
+	
+		<div class="title-box">
+			<h1 >
+				<code>HHH.works</code>
+			</h1>
+		</div>
+	</div>		
+
 
 	<div class = "nav-menu">
 		<a href="index.html">Home</a>
